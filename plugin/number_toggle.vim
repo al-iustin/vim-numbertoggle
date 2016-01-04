@@ -110,5 +110,5 @@ endif
 if exists('g:NumberToggleTrigger')
   exec "nnoremap <silent> " . g:NumberToggleTrigger . " :call NumberToggle()<cr>"
 elseif g:UseNumberToggleTrigger
-  nnoremap <silent> <C-n> :call NumberToggle()<cr>
+  nnoremap <silent> <C-m> :call NumberToggle()<cr>
 endif
